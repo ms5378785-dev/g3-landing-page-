@@ -3,9 +3,65 @@
 .worksan {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500;
   font-style: normal;
 }
 /* color-section */
-
+.btn-one{
+  background-color: rgba(255, 144, 14, 1);
+ color: aliceblue;
+  height: 64px;
+  width: 180px;
+  border-radius: 8px;
+}
+/* Shared style */
+.flex{
+  display: flex;
+}
 /* heading-part */
+.bg-banner{
+background-color: rgba(255, 144, 14, 0.1);
+}
+.size{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*nav-part */
+nav{
+  justify-content: space-between;
+}
+.nav-items{
+  list-style: none;
+  margin-right: 20px;
+}
+.nav-links{
+  
+}
+.nav-links >li >a{
+  text-decoration: none;
+}
+/* banner-part */
+.banner-content{
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center; 
+}
+.banner-img{
+  margin-top: 30px;
+}
+.banner-img>img{
+  width: 100%;
+}
+/* BANNER PART responsive media querry */
+@media screen and (max-width:576px) {
+  .sml-dev{
+    nav{
+      flex-direction: column;
+      text-align: center;
+    }
+    .nav-links{
+      margin: 0 auto;
+    }
+  }
+}
