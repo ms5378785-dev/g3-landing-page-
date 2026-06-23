@@ -53,6 +53,29 @@ nav{
 .banner-img>img{
   width: 100%;
 }
+/* team part styles */
+.m-width{
+  margin-top: 130px;
+}
+
+
+.team{
+  margin: 0 auto ;
+  max-width: 1440px;
+align-items: center;
+
+}
+.team-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+.team-list{
+  margin-left: 75px;
+}
+
+
+
 /* BANNER PART responsive media querry */
 @media screen and (max-width:576px) {
   .sml-dev{
@@ -65,3 +88,13 @@ nav{
     }
   }
 }
+  /* Team part media  */
+  @media screen and (max-width:576px) {
+    .team{
+      flex-direction: column;
+      
+    }
+  .team-img{
+    grid-template-columns: repeat(1,1fr);
+  }
+  }
