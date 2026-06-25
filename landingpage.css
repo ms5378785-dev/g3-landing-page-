@@ -202,4 +202,24 @@ align-items: center;
       grid-template-columns: 1fr;
       gap: 20px;
     }
+    .facts,.facts-cards{
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  /* SPONSOR PART RESPONSIVE PART  */
+  @media screen and (max-width:576px){
+    .spngr-img{
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .spngr{
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .s-i{
+      margin: 0 auto;
+    }
   }
